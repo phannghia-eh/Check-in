@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 12, 2017 1:05:59 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="qlsinhvien" name="entities.DiemDanh" optimistic-lock="version" table="diemdanh">
+    <id name="stt" type="java.lang.Integer">
+      <column name="STT"/>
+      <generator class="identity"/>
+    </id>
+    <property name="tenMaMh" type="string">
+      <column length="30" name="tenMaMH" not-null="true"/>
+    </property>
+    <property name="maSv" type="string">
+      <column length="7" name="maSV" not-null="true"/>
+    </property>
+    <property name="tuan1" type="boolean">
+      <column name="tuan1" not-null="true"/>
+    </property>
+    <property name="tuan2" type="boolean">
+      <column name="tuan2" not-null="true"/>
+    </property>
+    <property name="tuan3" type="boolean">
+      <column name="tuan3" not-null="true"/>
+    </property>
+    <property name="tuan4" type="boolean">
+      <column name="tuan4" not-null="true"/>
+    </property>
+    <property name="tuan5" type="boolean">
+      <column name="tuan5" not-null="true"/>
+    </property>
+    <property name="tuan6" type="boolean">
+      <column name="tuan6" not-null="true"/>
+    </property>
+    <property name="tuan7" type="boolean">
+      <column name="tuan7" not-null="true"/>
+    </property>
+    <property name="tuan8" type="boolean">
+      <column name="tuan8" not-null="true"/>
+    </property>
+    <property name="tuan9" type="boolean">
+      <column name="tuan9" not-null="true"/>
+    </property>
+    <property name="tuan10" type="boolean">
+      <column name="tuan10" not-null="true"/>
+    </property>
+    <property name="tuan11" type="boolean">
+      <column name="tuan11" not-null="true"/>
+    </property>
+    <property name="tuan12" type="boolean">
+      <column name="tuan12" not-null="true"/>
+    </property>
+    <property name="tuan13" type="boolean">
+      <column name="tuan13" not-null="true"/>
+    </property>
+    <property name="tuan14" type="boolean">
+      <column name="tuan14" not-null="true"/>
+    </property>
+    <property name="tuan15" type="boolean">
+      <column name="tuan15" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

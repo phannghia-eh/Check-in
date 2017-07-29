@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 12, 2017 1:05:59 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="qlsinhvien" name="entities.SinhVien" optimistic-lock="version" table="sinhvien">
+    <id name="maSv" type="string">
+      <column length="7" name="maSV"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="password" type="string">
+      <column length="40" name="password" not-null="true"/>
+    </property>
+    <property name="tenSv" type="string">
+      <column length="50" name="tenSV"/>
+    </property>
+  </class>
+</hibernate-mapping>

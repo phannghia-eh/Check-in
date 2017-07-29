@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Apr 12, 2017 1:05:59 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="qlsinhvien" name="entities.MonHoc" optimistic-lock="version" table="monhoc">
+    <id name="tenMaMh" type="string">
+      <column length="30" name="tenMaMH"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="tenMh" type="string">
+      <column length="50" name="tenMH" not-null="true"/>
+    </property>
+    <property name="ngayBd" type="date">
+      <column length="10" name="ngayBD" not-null="true"/>
+    </property>
+    <property name="ngayKt" type="date">
+      <column length="10" name="ngayKT" not-null="true"/>
+    </property>
+    <property name="gioBd" type="string">
+      <column length="6" name="gioBD" not-null="true"/>
+    </property>
+    <property name="gioKt" type="string">
+      <column length="6" name="gioKT" not-null="true"/>
+    </property>
+    <property name="tenPh" type="string">
+      <column length="45" name="tenPH"/>
+    </property>
+    <property name="thu" type="string">
+      <column length="45" name="thu"/>
+    </property>
+  </class>
+</hibernate-mapping>
